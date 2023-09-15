@@ -1,4 +1,3 @@
-import React from "react";
 import "./index.css";
 import Form from "./components/Form";
 import Task from "./components/Task";
