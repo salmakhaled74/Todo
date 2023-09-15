@@ -1,21 +1,15 @@
-import { useState } from "react";
-import Form from "./components/from";
+import React from "react";
 import "./index.css";
-import Task from "./components/task";
-import NavBar from "./components/navBar";
+import Form from "./components/Form";
+import Task from "./components/Task";
+import NavBar from "./components/NavBar";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
-
-  const addTask = (newTask) => {
-    setTasks([...tasks, newTask]);
-  };
   return (
     <>
       <NavBar />
-      <Form addTask={addTask} />
-      <navBar />
-      <Task tasks={tasks} />
+      <Form />
+      <Task />
     </>
   );
 }
