@@ -1,7 +1,6 @@
-// Form.jsx
 import  { useState } from "react";
 import "../index.css";
-import Task from "./Task"; // Import Task component
+import Task from "./task"; 
 
 export default function Form() {
   const [task, setTask] = useState("");

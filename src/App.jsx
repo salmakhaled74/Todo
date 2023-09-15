@@ -1,7 +1,7 @@
 import "./index.css";
-import Form from "./components/Form";
-import Task from "./components/Task";
-import NavBar from "./components/NavBar";
+import Form from "./components/from";
+import Task from "./components/task";
+import NavBar from "./components/navBar";
 
 function App() {
   return (

@@ -1,10 +1,12 @@
-/* eslint-disable react/prop-types */
-// Task.jsx
-
+import React from "react";
 import "../index.css";
 
-// eslint-disable-next-line react/prop-types
 export default function Task({ tasks }) {
+
+  if (!tasks) {
+    return null; 
+  }
+
   return (
     <>
       {tasks.map((task, index) => (
